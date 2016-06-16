@@ -1,0 +1,35 @@
+{
+    "name": "strunk",
+    "version": "0.0.1",
+    "homepage": "http://github.com/halfs13/strunk",
+    "license": "MIT",
+    "private": true,
+    "dependencies": {
+        "angular": "=1.5.7",
+        "angular-ui-router": "=0.3.1",
+        "bootstrap": "=3.3.6",
+        "jquery": "=2.1.1",
+        "c3": "=0.4.11",
+        "lodash": "4.13.1"
+    },
+    "overrides": {
+        "angular": {
+            "js": "**/*.js"
+        },
+        "angular-gridster": {
+            "js": "**/*.js",
+            "css": "**/*.css"
+        },
+        "angular-ui-router": {
+            "js": ["**/angular-ui-router.js", "**/angular-ui-router.min.js"]
+        },
+        "bootstrap": {
+            "css": "**/*.css",
+            "js": "**/bootstrap.js",
+            "fonts": ["**/*.eot", "**/*.svg", "**/*.ttf", "**/*.woff"]
+        },
+        "jquery": {
+            "js": ["**/jquery.js", "**/jquery.min.js"]
+        }
+    }
+}

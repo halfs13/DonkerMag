@@ -1,0 +1,44 @@
+{
+  "name": "strunk",
+  "version": "0.0.1",
+  "author": "halfs13",
+  "license": "MIT",
+  "description": "",
+
+  "dependencies": {
+    "gulp": "3.9.1",
+    "gulp-less": "3.1.0",
+    "gulp-jshint": "2.0.1",
+    "jshint": "2.9.2",
+    "jshint-stylish": "2.2.0",
+    "gulp-jscs": "3.0.2",
+    "gulp-jscs-stylish": "1.4.0",
+    "gulp-nodemon": "2.1.0",
+    "gulp-install": "0.6.0",
+    "main-bower-files": "2.13.1",
+    "gulp-serve": "1.2.0",
+
+    "del": "2.2.0",
+    "bluebird": "3.4.0",
+    "bunyan": "1.8.1",
+
+    "express": "4.13.4",
+    "method-override": "2.3.6",
+    "body-parser": "1.15.1",
+    "cors": "2.7.1",
+
+    "uuid": "2.0.2",
+    "superagent": "2.0.0",
+
+    "elasticsearch": "11.0.1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halfs13/Strunk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/halfs13/Strunk/issues"
+  },
+  "homepage": "https://github.com/halfs13/Strunk#readme"
+}
